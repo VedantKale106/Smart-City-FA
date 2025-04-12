@@ -1,0 +1,8 @@
+from_stop,to_stop,day_of_week,time_slot,temp,event,demand
+Nigdi,Bhosari,Monday,Morning,28,No,High
+Chinchwad,Akurdi,Monday,Evening,30,No,Medium
+Pimpri,Nashik Phata,Tuesday,Afternoon,33,No,Medium
+Bhosari,PCMC Metro Station,Wednesday,Morning,25,Yes,High
+Akurdi,Chinchwad,Friday,Evening,27,Yes,Low
+Nigdi,Bhosari,Saturday,Afternoon,32,No,Medium
+Pimpri,Chinchwad,Sunday,Morning,29,No,High

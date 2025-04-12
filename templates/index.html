@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCMC Smart City Demand Predictor</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #3498db;
+            --secondary: #2ecc71;
+            --dark: #2c3e50;
+            --light: #ecf0f1;
+            --accent: #9b59b6;
+            --warning: #f39c12;
+            --danger: #e74c3c;
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: var(--dark);
+            line-height: 1.6;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+            color: var(--dark);
+        }
+        
+        header p {
+            color: #555;
+            font-size: 1rem;
+        }
+        
+        .smart-city-icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+        
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            box-shadow: var(--shadow);
+            padding: 25px;
+            margin-bottom: 25px;
+            transition: transform 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .form-group {
+            margin-bottom: 18px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--dark);
+        }
+        
+        select, input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            background-color: white;
+        }
+        
+        select:focus, input:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+        }
+        
+        .submit-btn {
+            background: linear-gradient(45deg, var(--primary), var(--accent));
+            color: white;
+            border: none;
+            padding: 14px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            width: 100%;
+            margin-top: 10px;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow);
+        }
+        
+        .submit-btn:hover {
+            background: linear-gradient(45deg, var(--accent), var(--primary));
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .result-card {
+            text-align: center;
+            background: linear-gradient(45deg, var(--secondary), var(--primary));
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: var(--shadow);
+        }
+        
+        .result-value {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin: 15px 0;
+        }
+        
+        .result-label {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .map-link {
+            display: inline-block;
+            background-color: white;
+            color: var(--primary);
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 50px;
+            margin-top: 15px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow);
+        }
+        
+        .map-link:hover {
+            background-color: var(--light);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .dashboard {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .dashboard-card {
+            flex: 1 1 calc(50% - 20px);
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: var(--shadow);
+            min-width: 250px;
+        }
+        
+        .dashboard-card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            color: var(--dark);
+            display: flex;
+            align-items: center;
+        }
+        
+        .dashboard-card h3 i {
+            margin-right: 10px;
+            color: var(--primary);
+        }
+        
+        .stat {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        
+        .stat-icon {
+            width: 40px;
+            height: 40px;
+            background-color: rgba(52, 152, 219, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 12px;
+            color: var(--primary);
+        }
+        
+        .stat-info {
+            flex: 1;
+        }
+        
+        .stat-value {
+            font-size: 1.4rem;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+        
+        .stat-label {
+            color: #777;
+            font-size: 0.85rem;
+        }
+        
+        .weather-info {
+            background-color: rgba(46, 204, 113, 0.1);
+            padding: 12px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+        }
+        
+        .weather-icon {
+            font-size: 2rem;
+            color: var(--secondary);
+            margin-right: 15px;
+        }
+        
+        .trend-chart {
+            width: 100%;
+            height: 200px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            margin-top: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #777;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #777;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .dashboard-card {
+                flex: 1 1 100%;
+            }
+            
+            .card {
+                padding: 20px;
+            }
+            
+            header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .result-value {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="smart-city-icon">
+                <i class="fas fa-city"></i>
+            </div>
+            <h1>PCMC Smart City Transit Predictor</h1>
+            <p>Intelligent urban mobility forecasting powered by AI</p>
+        </header>
+        {% if prediction %}
+        <div class="result-card" style="margin-bottom: 2%;">
+            <div class="result-label">Predicted Transit Demand</div>
+            <div class="result-value">{{ prediction }}</div>
+            <p>Based on historical patterns and current conditions</p>
+            
+            {% if map_url %}
+            <a href="{{ map_url }}" target="_blank" class="map-link">
+                <i class="fas fa-map-marked-alt"></i> View Optimized Route
+            </a>
+            {% endif %}
+        </div>
+        {% endif %}
+        
+        <div class="card">
+            <form method="POST">
+                <div class="form-group">
+                    <label for="from"><i class="fas fa-map-marker-alt"></i> Origin Location:</label>
+                    <select id="from" name="from">
+                        {% for place in places %}
+                            <option value="{{ place }}" {% if selected.from == place %}selected{% endif %}>{{ place }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="to"><i class="fas fa-map-pin"></i> Destination:</label>
+                    <select id="to" name="to">
+                        {% for place in places %}
+                            <option value="{{ place }}" {% if selected.to == place %}selected{% endif %}>{{ place }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="day"><i class="fas fa-calendar-day"></i> Day of Week:</label>
+                    <select id="day" name="day">
+                        {% for d in days %}
+                            <option value="{{ d }}" {% if selected.day == d %}selected{% endif %}>{{ d }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="time"><i class="fas fa-clock"></i> Time of Day:</label>
+                    <select id="time" name="time">
+                        {% for t in times %}
+                            <option value="{{ t }}" {% if selected.time == t %}selected{% endif %}>{{ t }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="temp"><i class="fas fa-thermometer-half"></i> Temperature (°C):</label>
+                    <input type="number" step="0.1" id="temp" name="temp" value="{{ selected.temp }}">
+                </div>
+                
+                <div class="form-group">
+                    <label for="event"><i class="fas fa-calendar-check"></i> City Event:</label>
+                    <select id="event" name="event">
+                        {% for e in events %}
+                            <option value="{{ e }}" {% if selected.event == e %}selected{% endif %}>{{ e }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                
+                <button type="submit" class="submit-btn">
+                    <i class="fas fa-chart-line"></i> Predict Demand
+                </button>
+            </form>
+        </div>
+        
+        
+        
+        <div class="dashboard">
+            <div class="dashboard-card">
+                <h3><i class="fas fa-chart-pie"></i> Live City Insights</h3>
+                <div class="stat">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-info">
+                        <div class="stat-value">87%</div>
+                        <div class="stat-label">Current City Mobility Rate</div>
+                    </div>
+                </div>
+                <div class="stat">
+                    <div class="stat-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <div class="stat-info">
+                        <div class="stat-value">23 min</div>
+                        <div class="stat-label">Average Transit Time</div>
+                    </div>
+                </div>
+                <div class="trend-chart">
+                    <span>City Traffic Trend Chart</span>
+                </div>
+            </div>
+            
+            <div class="dashboard-card">
+                <h3><i class="fas fa-bolt"></i> Smart Recommendations</h3>
+                <div class="stat">
+                    <div class="stat-icon">
+                        <i class="fas fa-route"></i>
+                    </div>
+                    <div class="stat-info">
+                        <div class="stat-value">3</div>
+                        <div class="stat-label">Alternative Routes Available</div>
+                    </div>
+                </div>
+                <div class="weather-info">
+                    <div class="weather-icon">
+                        <i class="fas fa-cloud-sun"></i>
+                    </div>
+                    <div>
+                        <div style="font-weight: 600;">Current Weather Impact</div>
+                        <div style="font-size: 0.9rem;">Favorable conditions for transit</div>
+                    </div>
+                </div>
+                <div class="stat" style="margin-top: 15px;">
+                    <div class="stat-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <div class="stat-info">
+                        <div class="stat-value">2.3 kg</div>
+                        <div class="stat-label">CO₂ Saved with Public Transit</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>PCMC Smart City Initiative © 2025 | Helping create sustainable urban mobility</p>
+        </footer>
+    </div>
+
+    <script>
+        // Show current date and time
+        document.addEventListener('DOMContentLoaded', function() {
+            // This would be replaced with actual data from the backend
+            console.log("Smart City Predictor Initialized");
+        });
+    </script>
+</body>
+</html>

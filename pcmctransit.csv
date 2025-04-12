@@ -1,0 +1,1001 @@
+from,to,day,time,temp,event,demand
+Bhosari,Chinchwad,Sunday,Afternoon,41.2,No,Low
+Pimpri,Talwade,Sunday,Morning,25.8,Yes,High
+Talwade,Hinjewadi,Monday,Afternoon,39.1,Yes,Medium
+Nigdi,Wakad,Sunday,Afternoon,29.8,No,Medium
+Ravet,Talwade,Monday,Morning,25.0,No,Medium
+Nigdi,Bhosari,Tuesday,Evening,38.7,No,Low
+Wakad,Nigdi,Saturday,Afternoon,25.3,No,Medium
+Nigdi,Dange Chowk,Thursday,Morning,40.8,Yes,Medium
+Bhosari,Pimpri,Monday,Afternoon,39.8,No,Low
+Hinjewadi,Bhosari,Monday,Afternoon,29.8,Yes,High
+Bhosari,Nigdi,Wednesday,Evening,25.5,Yes,High
+Ravet,Bhosari,Friday,Evening,38.0,Yes,High
+Dange Chowk,Ravet,Tuesday,Evening,24.6,Yes,High
+Dange Chowk,Hinjewadi,Saturday,Afternoon,41.6,No,Low
+Wakad,Dange Chowk,Thursday,Evening,34.1,Yes,High
+Pimpri,Ravet,Friday,Afternoon,33.6,Yes,High
+Dange Chowk,Akurdi,Monday,Evening,34.9,No,High
+Wakad,Ravet,Thursday,Evening,28.5,No,High
+Nigdi,Wakad,Monday,Afternoon,22.7,No,Low
+Pimpri,Hinjewadi,Sunday,Morning,33.7,Yes,High
+Wakad,Dange Chowk,Saturday,Afternoon,25.5,Yes,High
+Hinjewadi,Chinchwad,Saturday,Afternoon,30.8,No,Medium
+Bhosari,Chinchwad,Thursday,Afternoon,22.8,No,Low
+Talwade,Ravet,Monday,Evening,27.2,No,Medium
+Akurdi,Chinchwad,Thursday,Morning,34.4,Yes,High
+Chinchwad,Pimpri,Monday,Evening,35.1,No,Medium
+Pimpri,Nigdi,Thursday,Morning,38.9,Yes,Medium
+Chinchwad,Dange Chowk,Sunday,Evening,28.0,No,Medium
+Talwade,Ravet,Tuesday,Morning,23.7,No,Medium
+Ravet,Bhosari,Friday,Afternoon,41.4,Yes,Medium
+Akurdi,Dange Chowk,Saturday,Afternoon,33.8,Yes,High
+Nigdi,Chinchwad,Thursday,Morning,24.1,No,Medium
+Bhosari,Hinjewadi,Thursday,Evening,26.4,No,High
+Ravet,Pimpri,Monday,Evening,38.7,No,Low
+Nigdi,Chinchwad,Sunday,Afternoon,27.1,Yes,High
+Akurdi,Wakad,Wednesday,Evening,39.2,No,Low
+Dange Chowk,Talwade,Monday,Morning,36.7,Yes,High
+Chinchwad,Wakad,Tuesday,Evening,36.6,No,High
+Talwade,Akurdi,Wednesday,Evening,41.1,No,Low
+Hinjewadi,Nigdi,Sunday,Afternoon,32.4,No,High
+Wakad,Dange Chowk,Friday,Evening,33.1,Yes,High
+Chinchwad,Nigdi,Wednesday,Morning,37.7,Yes,High
+Nigdi,Bhosari,Sunday,Evening,37.0,No,Medium
+Dange Chowk,Wakad,Saturday,Afternoon,23.8,No,Medium
+Chinchwad,Ravet,Saturday,Afternoon,36.4,Yes,High
+Ravet,Wakad,Monday,Evening,39.3,Yes,Medium
+Nigdi,Akurdi,Monday,Morning,38.2,No,Low
+Bhosari,Chinchwad,Tuesday,Evening,34.7,Yes,High
+Dange Chowk,Pimpri,Tuesday,Afternoon,24.7,Yes,High
+Chinchwad,Dange Chowk,Wednesday,Afternoon,23.5,No,Low
+Bhosari,Akurdi,Monday,Afternoon,36.1,Yes,High
+Nigdi,Talwade,Saturday,Evening,33.8,Yes,High
+Talwade,Akurdi,Sunday,Evening,25.9,Yes,High
+Chinchwad,Pimpri,Monday,Afternoon,35.9,No,Low
+Ravet,Nigdi,Thursday,Evening,41.3,No,Low
+Hinjewadi,Ravet,Saturday,Morning,28.7,No,Medium
+Bhosari,Chinchwad,Friday,Morning,22.5,No,High
+Ravet,Wakad,Sunday,Morning,41.8,No,Low
+Talwade,Ravet,Monday,Afternoon,38.5,Yes,Medium
+Nigdi,Pimpri,Thursday,Morning,36.8,Yes,High
+Bhosari,Wakad,Saturday,Evening,26.6,Yes,High
+Pimpri,Akurdi,Monday,Evening,37.4,Yes,High
+Talwade,Akurdi,Monday,Morning,25.0,No,High
+Dange Chowk,Akurdi,Thursday,Afternoon,38.4,Yes,Medium
+Akurdi,Hinjewadi,Monday,Morning,24.7,No,High
+Pimpri,Nigdi,Tuesday,Morning,31.7,No,High
+Wakad,Hinjewadi,Wednesday,Evening,22.2,No,Medium
+Dange Chowk,Ravet,Saturday,Morning,37.5,No,High
+Nigdi,Dange Chowk,Monday,Afternoon,32.4,No,Low
+Nigdi,Dange Chowk,Saturday,Evening,27.7,No,Medium
+Pimpri,Ravet,Friday,Morning,41.2,Yes,Medium
+Nigdi,Akurdi,Saturday,Morning,26.2,No,Medium
+Bhosari,Hinjewadi,Wednesday,Evening,29.0,Yes,High
+Nigdi,Chinchwad,Saturday,Morning,37.3,Yes,High
+Akurdi,Pimpri,Tuesday,Morning,35.0,Yes,High
+Akurdi,Pimpri,Saturday,Afternoon,23.3,No,Medium
+Hinjewadi,Pimpri,Friday,Afternoon,35.7,No,Low
+Bhosari,Akurdi,Saturday,Afternoon,39.7,No,Low
+Dange Chowk,Akurdi,Sunday,Evening,40.3,Yes,Medium
+Pimpri,Ravet,Sunday,Evening,33.9,No,Medium
+Dange Chowk,Chinchwad,Thursday,Evening,31.3,Yes,High
+Pimpri,Chinchwad,Monday,Afternoon,42.0,No,Low
+Wakad,Talwade,Sunday,Afternoon,32.9,No,Medium
+Hinjewadi,Dange Chowk,Monday,Afternoon,23.6,Yes,High
+Wakad,Hinjewadi,Thursday,Afternoon,25.9,No,Low
+Dange Chowk,Wakad,Monday,Morning,22.4,No,Medium
+Talwade,Wakad,Tuesday,Morning,29.8,Yes,High
+Bhosari,Ravet,Friday,Afternoon,37.9,Yes,High
+Ravet,Talwade,Thursday,Afternoon,38.8,No,Low
+Dange Chowk,Wakad,Friday,Morning,41.6,No,Low
+Talwade,Dange Chowk,Wednesday,Evening,23.1,Yes,High
+Nigdi,Bhosari,Monday,Evening,32.4,No,High
+Chinchwad,Talwade,Friday,Afternoon,29.6,No,Low
+Nigdi,Akurdi,Sunday,Afternoon,26.6,Yes,High
+Talwade,Akurdi,Wednesday,Morning,28.1,No,High
+Pimpri,Talwade,Monday,Morning,28.4,Yes,High
+Dange Chowk,Akurdi,Friday,Afternoon,30.8,No,Low
+Chinchwad,Akurdi,Friday,Morning,40.1,Yes,Medium
+Nigdi,Wakad,Saturday,Morning,25.7,Yes,High
+Akurdi,Talwade,Monday,Afternoon,41.5,Yes,Medium
+Hinjewadi,Wakad,Thursday,Afternoon,34.7,Yes,High
+Chinchwad,Ravet,Tuesday,Afternoon,22.8,Yes,High
+Akurdi,Talwade,Saturday,Morning,23.6,Yes,High
+Hinjewadi,Pimpri,Monday,Morning,26.3,No,High
+Hinjewadi,Ravet,Saturday,Morning,40.4,Yes,Medium
+Ravet,Akurdi,Wednesday,Evening,25.3,No,High
+Talwade,Bhosari,Wednesday,Morning,41.2,No,Low
+Dange Chowk,Wakad,Sunday,Evening,31.3,Yes,High
+Akurdi,Nigdi,Monday,Evening,26.7,Yes,High
+Wakad,Akurdi,Friday,Evening,26.8,Yes,High
+Bhosari,Hinjewadi,Saturday,Morning,23.2,No,Medium
+Ravet,Talwade,Sunday,Afternoon,39.2,Yes,Medium
+Ravet,Hinjewadi,Wednesday,Morning,40.7,No,Low
+Akurdi,Bhosari,Monday,Evening,36.4,Yes,High
+Dange Chowk,Talwade,Sunday,Morning,28.2,Yes,High
+Chinchwad,Nigdi,Tuesday,Evening,28.1,Yes,High
+Chinchwad,Dange Chowk,Friday,Evening,31.2,No,High
+Pimpri,Chinchwad,Sunday,Afternoon,41.2,Yes,Medium
+Dange Chowk,Pimpri,Sunday,Evening,33.5,Yes,High
+Hinjewadi,Dange Chowk,Tuesday,Afternoon,26.8,Yes,High
+Akurdi,Dange Chowk,Thursday,Morning,26.3,No,High
+Chinchwad,Pimpri,Saturday,Morning,24.1,Yes,High
+Bhosari,Talwade,Friday,Morning,30.3,No,High
+Wakad,Chinchwad,Wednesday,Afternoon,37.1,Yes,High
+Talwade,Akurdi,Monday,Evening,29.7,Yes,High
+Nigdi,Hinjewadi,Sunday,Morning,28.4,Yes,High
+Talwade,Pimpri,Thursday,Afternoon,25.8,Yes,High
+Dange Chowk,Nigdi,Sunday,Evening,42.0,Yes,Medium
+Pimpri,Bhosari,Saturday,Morning,22.8,Yes,High
+Chinchwad,Pimpri,Friday,Morning,34.0,No,Medium
+Pimpri,Hinjewadi,Monday,Morning,30.9,Yes,High
+Dange Chowk,Bhosari,Tuesday,Evening,33.5,Yes,High
+Pimpri,Nigdi,Tuesday,Afternoon,32.6,Yes,High
+Akurdi,Wakad,Wednesday,Afternoon,24.4,No,Low
+Talwade,Wakad,Wednesday,Evening,40.2,Yes,Medium
+Akurdi,Chinchwad,Sunday,Morning,29.6,No,Medium
+Wakad,Chinchwad,Sunday,Evening,36.2,Yes,High
+Bhosari,Talwade,Wednesday,Morning,28.1,Yes,High
+Ravet,Wakad,Tuesday,Morning,23.6,No,High
+Ravet,Hinjewadi,Wednesday,Evening,38.2,Yes,Medium
+Talwade,Pimpri,Monday,Evening,24.1,No,High
+Dange Chowk,Wakad,Saturday,Afternoon,26.2,Yes,High
+Bhosari,Ravet,Thursday,Morning,37.5,Yes,High
+Pimpri,Bhosari,Sunday,Afternoon,25.1,No,Medium
+Wakad,Bhosari,Sunday,Afternoon,29.3,No,Medium
+Nigdi,Talwade,Thursday,Evening,41.7,No,Low
+Bhosari,Talwade,Friday,Afternoon,31.3,Yes,High
+Pimpri,Wakad,Thursday,Morning,24.5,No,High
+Akurdi,Chinchwad,Saturday,Evening,28.9,No,Medium
+Hinjewadi,Akurdi,Monday,Morning,25.5,No,High
+Wakad,Chinchwad,Friday,Morning,30.4,No,High
+Ravet,Dange Chowk,Wednesday,Evening,34.4,Yes,High
+Ravet,Akurdi,Saturday,Morning,41.3,No,Low
+Ravet,Pimpri,Friday,Afternoon,22.6,No,Low
+Akurdi,Ravet,Monday,Afternoon,40.4,No,Low
+Ravet,Wakad,Monday,Evening,29.8,No,High
+Bhosari,Pimpri,Wednesday,Evening,37.7,Yes,High
+Talwade,Nigdi,Wednesday,Afternoon,31.1,Yes,High
+Nigdi,Ravet,Wednesday,Afternoon,23.9,Yes,High
+Wakad,Ravet,Tuesday,Morning,24.6,No,High
+Pimpri,Hinjewadi,Monday,Afternoon,38.5,No,Low
+Nigdi,Ravet,Saturday,Afternoon,41.3,Yes,Medium
+Pimpri,Akurdi,Monday,Afternoon,37.4,Yes,High
+Bhosari,Pimpri,Sunday,Afternoon,31.1,No,Medium
+Akurdi,Bhosari,Wednesday,Morning,32.8,No,High
+Nigdi,Dange Chowk,Thursday,Morning,23.0,No,High
+Dange Chowk,Nigdi,Wednesday,Afternoon,28.2,No,Low
+Dange Chowk,Wakad,Monday,Evening,22.3,No,Medium
+Nigdi,Chinchwad,Friday,Afternoon,29.1,Yes,High
+Hinjewadi,Talwade,Thursday,Morning,33.5,No,Medium
+Bhosari,Wakad,Thursday,Morning,29.9,Yes,High
+Pimpri,Bhosari,Wednesday,Evening,41.3,Yes,Medium
+Ravet,Nigdi,Monday,Morning,37.7,No,High
+Dange Chowk,Hinjewadi,Saturday,Afternoon,29.2,No,Medium
+Dange Chowk,Chinchwad,Friday,Afternoon,27.0,Yes,High
+Chinchwad,Akurdi,Tuesday,Morning,27.0,Yes,High
+Nigdi,Chinchwad,Saturday,Morning,28.0,Yes,High
+Ravet,Wakad,Tuesday,Morning,26.6,Yes,High
+Pimpri,Nigdi,Saturday,Afternoon,27.6,Yes,High
+Akurdi,Dange Chowk,Monday,Afternoon,27.8,Yes,High
+Bhosari,Talwade,Monday,Evening,32.6,Yes,High
+Talwade,Ravet,Sunday,Evening,40.2,No,Low
+Talwade,Pimpri,Monday,Evening,33.4,No,High
+Pimpri,Dange Chowk,Wednesday,Morning,25.2,No,High
+Akurdi,Chinchwad,Sunday,Morning,29.9,Yes,High
+Pimpri,Nigdi,Friday,Evening,39.5,No,Low
+Dange Chowk,Akurdi,Friday,Afternoon,25.1,Yes,High
+Dange Chowk,Nigdi,Wednesday,Afternoon,31.8,No,Low
+Wakad,Chinchwad,Wednesday,Morning,37.4,Yes,High
+Pimpri,Dange Chowk,Friday,Morning,23.8,No,High
+Dange Chowk,Hinjewadi,Tuesday,Morning,23.6,No,High
+Ravet,Akurdi,Tuesday,Morning,22.1,No,High
+Nigdi,Akurdi,Saturday,Afternoon,33.3,Yes,High
+Ravet,Talwade,Sunday,Afternoon,35.4,No,Medium
+Bhosari,Wakad,Monday,Morning,40.9,No,Low
+Wakad,Pimpri,Saturday,Afternoon,38.4,No,Low
+Chinchwad,Wakad,Friday,Evening,36.7,Yes,High
+Chinchwad,Talwade,Saturday,Evening,27.2,Yes,High
+Chinchwad,Nigdi,Tuesday,Morning,39.8,Yes,Medium
+Dange Chowk,Pimpri,Sunday,Afternoon,37.6,No,Medium
+Pimpri,Chinchwad,Tuesday,Morning,29.2,Yes,High
+Wakad,Ravet,Saturday,Afternoon,30.8,Yes,High
+Hinjewadi,Akurdi,Friday,Morning,38.8,No,Low
+Ravet,Wakad,Thursday,Afternoon,37.4,No,Low
+Chinchwad,Wakad,Sunday,Evening,32.6,No,High
+Hinjewadi,Nigdi,Monday,Afternoon,26.4,Yes,High
+Akurdi,Chinchwad,Sunday,Morning,38.6,Yes,Medium
+Ravet,Dange Chowk,Thursday,Evening,28.5,No,High
+Chinchwad,Dange Chowk,Thursday,Afternoon,40.4,No,Low
+Hinjewadi,Bhosari,Wednesday,Evening,33.0,Yes,High
+Dange Chowk,Nigdi,Wednesday,Afternoon,25.4,No,Low
+Hinjewadi,Pimpri,Saturday,Morning,39.2,No,Low
+Pimpri,Talwade,Wednesday,Morning,41.8,No,Low
+Akurdi,Chinchwad,Saturday,Evening,29.1,Yes,High
+Akurdi,Chinchwad,Friday,Morning,33.9,Yes,High
+Dange Chowk,Akurdi,Monday,Evening,22.5,Yes,High
+Hinjewadi,Chinchwad,Tuesday,Evening,34.6,No,High
+Bhosari,Ravet,Wednesday,Morning,41.7,Yes,Medium
+Akurdi,Pimpri,Monday,Morning,39.9,No,Low
+Wakad,Nigdi,Friday,Afternoon,27.5,No,Low
+Chinchwad,Hinjewadi,Monday,Evening,29.5,Yes,High
+Bhosari,Chinchwad,Sunday,Afternoon,34.2,No,Medium
+Nigdi,Akurdi,Monday,Morning,38.0,No,Medium
+Ravet,Wakad,Thursday,Morning,29.3,Yes,High
+Hinjewadi,Chinchwad,Wednesday,Evening,23.7,Yes,High
+Hinjewadi,Pimpri,Wednesday,Afternoon,36.8,No,Low
+Talwade,Bhosari,Sunday,Morning,41.1,Yes,Medium
+Bhosari,Wakad,Friday,Evening,27.2,Yes,High
+Bhosari,Talwade,Sunday,Evening,39.7,No,Low
+Akurdi,Pimpri,Monday,Evening,34.7,No,High
+Ravet,Talwade,Friday,Afternoon,35.2,No,Low
+Dange Chowk,Ravet,Monday,Evening,35.9,Yes,High
+Nigdi,Pimpri,Thursday,Evening,29.1,No,High
+Talwade,Wakad,Friday,Evening,34.3,Yes,High
+Talwade,Pimpri,Friday,Morning,23.6,No,High
+Talwade,Wakad,Friday,Morning,39.4,Yes,Medium
+Ravet,Nigdi,Monday,Morning,25.0,No,High
+Bhosari,Nigdi,Saturday,Afternoon,31.0,Yes,High
+Chinchwad,Pimpri,Monday,Morning,28.5,Yes,High
+Chinchwad,Wakad,Sunday,Evening,36.3,No,High
+Dange Chowk,Chinchwad,Thursday,Evening,37.0,Yes,High
+Ravet,Nigdi,Monday,Morning,24.6,No,High
+Hinjewadi,Chinchwad,Tuesday,Evening,39.4,No,Low
+Hinjewadi,Dange Chowk,Wednesday,Afternoon,34.7,Yes,High
+Wakad,Pimpri,Thursday,Evening,34.7,Yes,High
+Pimpri,Chinchwad,Sunday,Evening,38.3,No,Low
+Ravet,Dange Chowk,Friday,Morning,38.4,Yes,Medium
+Talwade,Bhosari,Thursday,Morning,22.9,Yes,High
+Nigdi,Pimpri,Sunday,Afternoon,37.1,Yes,High
+Chinchwad,Akurdi,Wednesday,Morning,25.2,No,High
+Dange Chowk,Nigdi,Thursday,Evening,34.5,Yes,High
+Akurdi,Ravet,Monday,Evening,38.8,Yes,Medium
+Bhosari,Akurdi,Wednesday,Afternoon,32.8,Yes,High
+Ravet,Nigdi,Monday,Morning,23.9,Yes,High
+Pimpri,Akurdi,Monday,Evening,28.9,Yes,High
+Ravet,Dange Chowk,Sunday,Evening,25.9,No,High
+Wakad,Dange Chowk,Monday,Afternoon,26.8,Yes,High
+Chinchwad,Talwade,Friday,Morning,38.5,Yes,Medium
+Chinchwad,Hinjewadi,Sunday,Afternoon,34.1,Yes,High
+Akurdi,Dange Chowk,Tuesday,Afternoon,26.2,No,Low
+Dange Chowk,Bhosari,Saturday,Evening,32.4,Yes,High
+Pimpri,Ravet,Monday,Afternoon,32.8,No,Low
+Wakad,Dange Chowk,Friday,Evening,25.6,Yes,High
+Pimpri,Nigdi,Sunday,Morning,38.4,Yes,Medium
+Talwade,Ravet,Monday,Evening,33.6,No,Medium
+Hinjewadi,Nigdi,Thursday,Evening,24.4,No,High
+Dange Chowk,Bhosari,Tuesday,Evening,25.9,No,Medium
+Ravet,Akurdi,Saturday,Evening,29.5,No,Medium
+Dange Chowk,Chinchwad,Sunday,Morning,34.5,No,Medium
+Talwade,Nigdi,Tuesday,Morning,40.7,Yes,Medium
+Pimpri,Chinchwad,Saturday,Morning,30.6,Yes,High
+Nigdi,Bhosari,Saturday,Morning,34.0,Yes,High
+Chinchwad,Ravet,Friday,Morning,35.5,Yes,High
+Nigdi,Dange Chowk,Monday,Evening,36.9,Yes,High
+Ravet,Chinchwad,Friday,Evening,27.1,No,High
+Ravet,Dange Chowk,Saturday,Afternoon,33.8,No,High
+Nigdi,Dange Chowk,Friday,Afternoon,32.2,Yes,High
+Dange Chowk,Hinjewadi,Thursday,Morning,39.4,No,Low
+Pimpri,Bhosari,Friday,Afternoon,37.7,No,Low
+Ravet,Pimpri,Sunday,Morning,36.7,No,Medium
+Dange Chowk,Ravet,Sunday,Morning,36.6,Yes,High
+Nigdi,Pimpri,Sunday,Evening,26.6,Yes,High
+Hinjewadi,Pimpri,Friday,Evening,31.3,Yes,High
+Ravet,Hinjewadi,Saturday,Evening,22.2,Yes,High
+Ravet,Wakad,Saturday,Evening,36.5,Yes,High
+Ravet,Pimpri,Thursday,Afternoon,30.7,No,Low
+Nigdi,Dange Chowk,Thursday,Morning,31.7,No,High
+Hinjewadi,Ravet,Friday,Evening,31.6,Yes,High
+Wakad,Dange Chowk,Saturday,Evening,34.5,Yes,High
+Pimpri,Ravet,Saturday,Morning,25.0,Yes,High
+Wakad,Dange Chowk,Monday,Evening,28.0,Yes,High
+Bhosari,Dange Chowk,Thursday,Evening,26.3,Yes,High
+Nigdi,Talwade,Monday,Evening,34.0,No,High
+Talwade,Akurdi,Tuesday,Morning,36.4,No,High
+Hinjewadi,Bhosari,Monday,Evening,32.0,No,High
+Pimpri,Talwade,Wednesday,Morning,31.6,Yes,High
+Bhosari,Wakad,Tuesday,Morning,29.9,Yes,High
+Ravet,Bhosari,Sunday,Evening,41.8,Yes,Medium
+Nigdi,Wakad,Tuesday,Afternoon,32.8,No,Low
+Hinjewadi,Ravet,Monday,Afternoon,29.5,No,Low
+Dange Chowk,Nigdi,Monday,Evening,38.3,Yes,Medium
+Dange Chowk,Ravet,Wednesday,Morning,28.8,Yes,High
+Pimpri,Nigdi,Sunday,Afternoon,37.0,Yes,High
+Bhosari,Dange Chowk,Saturday,Evening,29.2,Yes,High
+Akurdi,Hinjewadi,Tuesday,Afternoon,24.6,No,Low
+Akurdi,Pimpri,Monday,Afternoon,38.2,Yes,Medium
+Chinchwad,Ravet,Saturday,Evening,33.0,Yes,High
+Bhosari,Hinjewadi,Tuesday,Morning,23.4,Yes,High
+Bhosari,Pimpri,Friday,Evening,28.2,No,High
+Nigdi,Chinchwad,Saturday,Evening,41.8,No,Low
+Hinjewadi,Chinchwad,Tuesday,Evening,30.6,No,High
+Dange Chowk,Akurdi,Wednesday,Evening,37.2,No,High
+Pimpri,Wakad,Friday,Afternoon,34.4,Yes,High
+Pimpri,Ravet,Tuesday,Morning,29.1,No,Medium
+Akurdi,Bhosari,Friday,Morning,29.4,No,High
+Talwade,Nigdi,Friday,Evening,34.7,No,High
+Nigdi,Talwade,Monday,Afternoon,29.3,No,Low
+Nigdi,Hinjewadi,Sunday,Morning,29.7,Yes,High
+Wakad,Akurdi,Monday,Morning,35.4,No,High
+Talwade,Akurdi,Thursday,Morning,27.7,Yes,High
+Wakad,Nigdi,Friday,Morning,37.8,No,High
+Bhosari,Wakad,Thursday,Evening,22.8,Yes,High
+Pimpri,Bhosari,Saturday,Evening,37.9,Yes,High
+Wakad,Chinchwad,Thursday,Evening,28.3,Yes,High
+Bhosari,Dange Chowk,Friday,Morning,28.7,Yes,High
+Talwade,Ravet,Thursday,Morning,24.5,No,Medium
+Akurdi,Wakad,Sunday,Evening,27.3,Yes,High
+Akurdi,Wakad,Thursday,Morning,28.8,Yes,High
+Nigdi,Ravet,Sunday,Morning,38.2,Yes,Medium
+Nigdi,Chinchwad,Friday,Evening,33.7,No,Medium
+Wakad,Akurdi,Tuesday,Afternoon,25.3,No,Low
+Pimpri,Nigdi,Wednesday,Afternoon,25.0,Yes,High
+Nigdi,Pimpri,Wednesday,Afternoon,23.9,Yes,High
+Chinchwad,Wakad,Monday,Afternoon,39.5,No,Low
+Pimpri,Bhosari,Saturday,Afternoon,31.2,Yes,High
+Chinchwad,Wakad,Sunday,Afternoon,29.1,Yes,High
+Pimpri,Akurdi,Monday,Evening,27.8,Yes,High
+Wakad,Ravet,Thursday,Afternoon,24.8,No,Low
+Bhosari,Hinjewadi,Monday,Afternoon,27.8,No,Low
+Bhosari,Pimpri,Tuesday,Evening,31.6,No,High
+Chinchwad,Wakad,Saturday,Morning,39.7,Yes,Medium
+Pimpri,Hinjewadi,Tuesday,Evening,35.9,No,High
+Wakad,Talwade,Saturday,Evening,27.7,No,Medium
+Akurdi,Ravet,Wednesday,Afternoon,33.5,No,Low
+Wakad,Dange Chowk,Saturday,Morning,38.3,No,Low
+Dange Chowk,Ravet,Sunday,Evening,32.6,Yes,High
+Pimpri,Hinjewadi,Thursday,Afternoon,29.8,No,Low
+Ravet,Akurdi,Tuesday,Afternoon,35.6,Yes,High
+Pimpri,Hinjewadi,Sunday,Morning,36.0,No,Medium
+Dange Chowk,Chinchwad,Monday,Afternoon,39.1,Yes,Medium
+Talwade,Hinjewadi,Friday,Afternoon,38.7,Yes,Medium
+Akurdi,Pimpri,Tuesday,Evening,41.4,Yes,Medium
+Akurdi,Pimpri,Monday,Morning,27.1,Yes,High
+Ravet,Bhosari,Saturday,Morning,35.5,No,Medium
+Pimpri,Nigdi,Thursday,Afternoon,41.0,No,Low
+Bhosari,Dange Chowk,Sunday,Evening,36.0,Yes,High
+Chinchwad,Hinjewadi,Friday,Afternoon,33.6,No,Low
+Pimpri,Akurdi,Tuesday,Afternoon,39.1,Yes,Medium
+Dange Chowk,Talwade,Friday,Morning,24.7,No,High
+Bhosari,Talwade,Friday,Evening,28.7,Yes,High
+Nigdi,Wakad,Saturday,Evening,31.4,No,Medium
+Ravet,Pimpri,Tuesday,Evening,32.5,Yes,High
+Pimpri,Ravet,Sunday,Afternoon,27.5,No,Medium
+Akurdi,Talwade,Tuesday,Afternoon,29.9,Yes,High
+Chinchwad,Talwade,Friday,Afternoon,27.4,No,Low
+Talwade,Ravet,Friday,Evening,33.1,Yes,High
+Talwade,Ravet,Saturday,Morning,32.4,No,Medium
+Talwade,Bhosari,Sunday,Afternoon,22.0,No,Medium
+Chinchwad,Wakad,Thursday,Morning,24.9,Yes,High
+Pimpri,Ravet,Saturday,Evening,28.7,Yes,High
+Bhosari,Dange Chowk,Tuesday,Afternoon,30.2,Yes,High
+Nigdi,Hinjewadi,Thursday,Evening,32.9,Yes,High
+Wakad,Chinchwad,Thursday,Afternoon,28.4,No,Low
+Wakad,Hinjewadi,Wednesday,Evening,22.7,Yes,High
+Talwade,Pimpri,Monday,Morning,23.7,No,High
+Pimpri,Hinjewadi,Wednesday,Evening,41.3,No,Low
+Nigdi,Hinjewadi,Thursday,Morning,40.4,No,Low
+Chinchwad,Talwade,Thursday,Evening,23.1,No,High
+Talwade,Hinjewadi,Monday,Afternoon,28.1,Yes,High
+Chinchwad,Talwade,Saturday,Evening,35.6,No,Medium
+Nigdi,Hinjewadi,Sunday,Morning,36.5,No,High
+Akurdi,Chinchwad,Thursday,Morning,38.1,Yes,Medium
+Nigdi,Ravet,Monday,Morning,38.3,Yes,Medium
+Talwade,Ravet,Thursday,Evening,32.0,No,Medium
+Bhosari,Pimpri,Wednesday,Afternoon,31.7,No,Low
+Talwade,Pimpri,Monday,Afternoon,26.3,No,Low
+Ravet,Akurdi,Sunday,Evening,22.4,Yes,High
+Chinchwad,Talwade,Thursday,Morning,28.2,No,High
+Akurdi,Dange Chowk,Wednesday,Evening,34.7,Yes,High
+Ravet,Chinchwad,Saturday,Afternoon,28.6,No,Medium
+Hinjewadi,Wakad,Sunday,Evening,30.0,Yes,High
+Hinjewadi,Talwade,Friday,Morning,35.1,No,Medium
+Talwade,Nigdi,Friday,Evening,26.8,Yes,High
+Wakad,Bhosari,Monday,Morning,29.5,Yes,High
+Talwade,Dange Chowk,Wednesday,Evening,30.3,No,High
+Wakad,Pimpri,Tuesday,Afternoon,24.7,Yes,High
+Dange Chowk,Akurdi,Sunday,Afternoon,28.9,No,Medium
+Pimpri,Nigdi,Saturday,Evening,22.4,Yes,High
+Talwade,Dange Chowk,Saturday,Evening,38.6,No,Low
+Hinjewadi,Pimpri,Friday,Morning,22.0,Yes,High
+Akurdi,Bhosari,Friday,Morning,32.8,No,High
+Ravet,Bhosari,Tuesday,Morning,40.6,No,Low
+Bhosari,Talwade,Sunday,Afternoon,28.3,No,Medium
+Hinjewadi,Dange Chowk,Thursday,Evening,30.1,Yes,High
+Dange Chowk,Pimpri,Monday,Evening,31.8,No,High
+Bhosari,Ravet,Tuesday,Morning,24.0,Yes,High
+Bhosari,Nigdi,Monday,Evening,32.8,Yes,High
+Akurdi,Dange Chowk,Friday,Morning,37.8,No,High
+Hinjewadi,Akurdi,Saturday,Afternoon,22.2,No,Medium
+Nigdi,Ravet,Tuesday,Evening,32.3,Yes,High
+Hinjewadi,Talwade,Wednesday,Morning,37.3,No,Medium
+Talwade,Hinjewadi,Friday,Morning,28.7,No,Medium
+Hinjewadi,Talwade,Thursday,Evening,27.3,Yes,High
+Ravet,Talwade,Saturday,Afternoon,31.6,Yes,High
+Akurdi,Chinchwad,Saturday,Afternoon,22.3,Yes,High
+Bhosari,Hinjewadi,Monday,Evening,25.9,Yes,High
+Hinjewadi,Chinchwad,Saturday,Morning,34.0,No,Medium
+Pimpri,Akurdi,Wednesday,Evening,22.7,Yes,High
+Wakad,Akurdi,Saturday,Afternoon,34.6,Yes,High
+Akurdi,Nigdi,Saturday,Evening,26.8,Yes,High
+Wakad,Pimpri,Sunday,Morning,36.7,Yes,High
+Chinchwad,Bhosari,Saturday,Morning,30.8,Yes,High
+Talwade,Bhosari,Friday,Afternoon,40.4,No,Low
+Nigdi,Bhosari,Sunday,Morning,39.6,Yes,Medium
+Akurdi,Nigdi,Monday,Evening,32.3,Yes,High
+Nigdi,Talwade,Friday,Morning,34.3,No,High
+Chinchwad,Bhosari,Thursday,Morning,39.1,Yes,Medium
+Nigdi,Akurdi,Monday,Evening,22.9,No,Medium
+Ravet,Nigdi,Saturday,Evening,30.5,No,Medium
+Wakad,Hinjewadi,Friday,Evening,25.9,No,Medium
+Wakad,Akurdi,Tuesday,Afternoon,25.3,No,Low
+Nigdi,Talwade,Tuesday,Evening,34.2,No,High
+Wakad,Akurdi,Sunday,Afternoon,27.4,Yes,High
+Ravet,Hinjewadi,Thursday,Morning,26.6,Yes,High
+Akurdi,Chinchwad,Saturday,Morning,29.3,Yes,High
+Akurdi,Chinchwad,Tuesday,Evening,24.8,No,High
+Hinjewadi,Nigdi,Wednesday,Afternoon,36.5,Yes,High
+Dange Chowk,Chinchwad,Tuesday,Morning,35.4,Yes,High
+Dange Chowk,Ravet,Monday,Afternoon,28.1,No,Low
+Dange Chowk,Wakad,Wednesday,Afternoon,26.1,Yes,High
+Ravet,Wakad,Tuesday,Afternoon,41.7,No,Low
+Bhosari,Hinjewadi,Thursday,Morning,24.5,No,High
+Nigdi,Ravet,Wednesday,Afternoon,25.0,No,Low
+Nigdi,Talwade,Monday,Afternoon,28.6,No,Low
+Hinjewadi,Wakad,Wednesday,Afternoon,36.0,No,Low
+Chinchwad,Pimpri,Friday,Evening,27.7,No,Medium
+Chinchwad,Bhosari,Tuesday,Evening,28.2,Yes,High
+Pimpri,Chinchwad,Saturday,Evening,27.7,No,Medium
+Pimpri,Nigdi,Sunday,Morning,35.4,Yes,High
+Hinjewadi,Chinchwad,Friday,Evening,23.8,Yes,High
+Bhosari,Nigdi,Wednesday,Afternoon,31.3,Yes,High
+Bhosari,Chinchwad,Monday,Evening,27.6,Yes,High
+Talwade,Pimpri,Saturday,Morning,36.8,No,High
+Bhosari,Dange Chowk,Saturday,Morning,23.1,No,Medium
+Pimpri,Wakad,Tuesday,Afternoon,31.7,Yes,High
+Bhosari,Hinjewadi,Wednesday,Afternoon,23.4,Yes,High
+Nigdi,Wakad,Tuesday,Morning,39.4,Yes,Medium
+Bhosari,Pimpri,Monday,Morning,24.4,No,High
+Ravet,Dange Chowk,Tuesday,Morning,34.0,Yes,High
+Ravet,Akurdi,Tuesday,Morning,33.1,No,High
+Bhosari,Akurdi,Monday,Afternoon,23.3,No,Low
+Talwade,Hinjewadi,Monday,Morning,37.7,Yes,High
+Wakad,Chinchwad,Saturday,Morning,33.0,No,High
+Pimpri,Ravet,Wednesday,Afternoon,34.1,Yes,High
+Hinjewadi,Akurdi,Thursday,Evening,39.8,No,Low
+Bhosari,Talwade,Wednesday,Evening,37.8,No,High
+Bhosari,Ravet,Saturday,Afternoon,40.9,No,Low
+Chinchwad,Bhosari,Tuesday,Afternoon,27.7,No,Low
+Ravet,Pimpri,Tuesday,Afternoon,41.6,No,Low
+Talwade,Chinchwad,Sunday,Afternoon,32.6,Yes,High
+Chinchwad,Pimpri,Saturday,Evening,29.8,No,Medium
+Hinjewadi,Wakad,Tuesday,Evening,39.2,Yes,Medium
+Nigdi,Talwade,Tuesday,Evening,35.2,No,High
+Wakad,Ravet,Saturday,Evening,37.7,Yes,High
+Chinchwad,Ravet,Friday,Afternoon,34.6,Yes,High
+Dange Chowk,Pimpri,Friday,Evening,34.1,No,High
+Ravet,Hinjewadi,Thursday,Afternoon,36.3,Yes,High
+Wakad,Talwade,Friday,Afternoon,35.3,Yes,High
+Nigdi,Hinjewadi,Sunday,Afternoon,39.6,No,Low
+Hinjewadi,Akurdi,Saturday,Evening,24.9,No,Medium
+Akurdi,Chinchwad,Friday,Morning,24.9,No,High
+Dange Chowk,Akurdi,Wednesday,Afternoon,24.0,No,Low
+Chinchwad,Talwade,Sunday,Morning,39.4,No,Low
+Dange Chowk,Hinjewadi,Wednesday,Morning,27.1,No,High
+Bhosari,Hinjewadi,Monday,Morning,40.8,No,Low
+Akurdi,Hinjewadi,Saturday,Morning,25.5,No,Medium
+Chinchwad,Ravet,Friday,Afternoon,24.2,Yes,High
+Talwade,Chinchwad,Wednesday,Afternoon,38.4,Yes,Medium
+Hinjewadi,Nigdi,Sunday,Morning,27.4,Yes,High
+Talwade,Chinchwad,Sunday,Afternoon,41.1,No,Low
+Akurdi,Nigdi,Sunday,Afternoon,30.8,No,Medium
+Wakad,Bhosari,Monday,Morning,35.7,Yes,High
+Chinchwad,Hinjewadi,Monday,Morning,27.4,Yes,High
+Ravet,Talwade,Friday,Afternoon,28.6,No,Low
+Bhosari,Wakad,Friday,Morning,37.1,Yes,High
+Dange Chowk,Nigdi,Friday,Afternoon,29.5,No,Low
+Wakad,Pimpri,Saturday,Evening,22.5,Yes,High
+Chinchwad,Ravet,Friday,Evening,25.7,No,High
+Pimpri,Dange Chowk,Thursday,Afternoon,31.5,Yes,High
+Nigdi,Hinjewadi,Saturday,Afternoon,26.1,No,High
+Hinjewadi,Akurdi,Friday,Morning,26.6,No,High
+Akurdi,Bhosari,Friday,Morning,24.3,Yes,High
+Bhosari,Pimpri,Thursday,Evening,32.7,Yes,High
+Akurdi,Talwade,Saturday,Morning,24.5,Yes,High
+Talwade,Chinchwad,Friday,Morning,25.8,No,High
+Hinjewadi,Chinchwad,Thursday,Evening,27.1,No,High
+Nigdi,Dange Chowk,Wednesday,Afternoon,39.1,No,Low
+Nigdi,Ravet,Saturday,Afternoon,27.3,No,Medium
+Ravet,Hinjewadi,Thursday,Afternoon,30.5,No,Low
+Hinjewadi,Ravet,Tuesday,Evening,38.3,No,Low
+Wakad,Ravet,Monday,Afternoon,38.4,Yes,Medium
+Chinchwad,Hinjewadi,Sunday,Evening,28.0,No,Medium
+Chinchwad,Pimpri,Wednesday,Afternoon,37.1,Yes,High
+Pimpri,Dange Chowk,Wednesday,Morning,25.8,No,High
+Nigdi,Chinchwad,Thursday,Afternoon,38.0,No,Low
+Talwade,Bhosari,Saturday,Afternoon,38.0,Yes,High
+Akurdi,Bhosari,Tuesday,Morning,27.7,No,High
+Bhosari,Talwade,Tuesday,Evening,34.7,No,High
+Nigdi,Ravet,Saturday,Afternoon,25.0,Yes,High
+Hinjewadi,Bhosari,Friday,Morning,36.1,Yes,High
+Dange Chowk,Hinjewadi,Thursday,Evening,30.6,Yes,High
+Talwade,Ravet,Tuesday,Evening,39.5,No,Low
+Chinchwad,Wakad,Friday,Afternoon,27.4,No,Low
+Ravet,Dange Chowk,Sunday,Afternoon,27.6,No,High
+Chinchwad,Ravet,Thursday,Evening,32.7,No,High
+Talwade,Chinchwad,Thursday,Afternoon,39.6,Yes,Medium
+Hinjewadi,Chinchwad,Friday,Afternoon,35.2,Yes,High
+Chinchwad,Pimpri,Wednesday,Evening,36.8,No,Medium
+Bhosari,Talwade,Wednesday,Afternoon,41.1,No,Low
+Nigdi,Akurdi,Thursday,Evening,34.1,No,Medium
+Chinchwad,Hinjewadi,Wednesday,Evening,22.9,Yes,High
+Nigdi,Pimpri,Tuesday,Evening,33.0,No,High
+Ravet,Bhosari,Monday,Morning,31.6,No,High
+Chinchwad,Talwade,Saturday,Evening,32.7,Yes,High
+Hinjewadi,Dange Chowk,Friday,Afternoon,40.1,Yes,Medium
+Nigdi,Pimpri,Saturday,Evening,35.4,No,Medium
+Dange Chowk,Nigdi,Saturday,Evening,24.0,Yes,High
+Pimpri,Nigdi,Saturday,Evening,36.9,No,Medium
+Wakad,Ravet,Monday,Afternoon,35.5,Yes,High
+Wakad,Talwade,Friday,Evening,33.6,No,High
+Talwade,Wakad,Sunday,Afternoon,36.9,No,Medium
+Pimpri,Talwade,Wednesday,Morning,41.3,No,Low
+Bhosari,Talwade,Thursday,Evening,31.9,No,High
+Bhosari,Ravet,Wednesday,Evening,31.2,No,High
+Ravet,Hinjewadi,Friday,Afternoon,33.6,Yes,High
+Chinchwad,Ravet,Saturday,Afternoon,23.8,No,Medium
+Dange Chowk,Pimpri,Tuesday,Morning,23.5,No,High
+Ravet,Akurdi,Wednesday,Afternoon,22.9,Yes,High
+Akurdi,Bhosari,Thursday,Evening,29.4,No,High
+Talwade,Nigdi,Monday,Afternoon,29.9,Yes,High
+Bhosari,Wakad,Wednesday,Afternoon,24.0,Yes,High
+Nigdi,Wakad,Tuesday,Afternoon,40.0,Yes,Medium
+Wakad,Pimpri,Tuesday,Afternoon,23.4,Yes,High
+Chinchwad,Pimpri,Saturday,Afternoon,30.7,No,Medium
+Akurdi,Talwade,Tuesday,Evening,27.7,No,High
+Pimpri,Talwade,Monday,Morning,35.0,No,High
+Pimpri,Talwade,Thursday,Morning,26.2,No,High
+Bhosari,Nigdi,Monday,Morning,31.8,No,High
+Nigdi,Ravet,Wednesday,Evening,27.3,Yes,High
+Bhosari,Pimpri,Friday,Evening,26.2,Yes,High
+Nigdi,Akurdi,Wednesday,Morning,26.7,No,Medium
+Pimpri,Nigdi,Monday,Evening,40.6,Yes,Medium
+Wakad,Chinchwad,Monday,Evening,30.1,No,High
+Pimpri,Hinjewadi,Saturday,Morning,31.2,No,Medium
+Nigdi,Wakad,Tuesday,Evening,28.4,Yes,High
+Dange Chowk,Ravet,Sunday,Afternoon,33.1,Yes,High
+Akurdi,Pimpri,Friday,Evening,23.0,Yes,High
+Dange Chowk,Akurdi,Saturday,Afternoon,31.1,Yes,High
+Ravet,Pimpri,Sunday,Evening,40.6,No,Low
+Chinchwad,Bhosari,Tuesday,Afternoon,36.1,No,Low
+Hinjewadi,Bhosari,Tuesday,Afternoon,38.4,Yes,Medium
+Ravet,Akurdi,Saturday,Afternoon,34.2,Yes,High
+Talwade,Chinchwad,Sunday,Evening,37.1,No,Medium
+Talwade,Nigdi,Tuesday,Afternoon,41.2,Yes,Medium
+Ravet,Pimpri,Friday,Morning,27.3,No,Medium
+Hinjewadi,Ravet,Sunday,Evening,22.8,No,Medium
+Akurdi,Ravet,Sunday,Evening,34.5,Yes,High
+Hinjewadi,Nigdi,Friday,Evening,29.4,No,High
+Nigdi,Ravet,Wednesday,Morning,29.4,Yes,High
+Chinchwad,Talwade,Saturday,Evening,33.6,Yes,High
+Hinjewadi,Pimpri,Friday,Afternoon,25.1,Yes,High
+Talwade,Hinjewadi,Tuesday,Morning,36.3,Yes,High
+Ravet,Talwade,Monday,Afternoon,40.8,No,Low
+Ravet,Hinjewadi,Friday,Evening,26.5,Yes,High
+Wakad,Bhosari,Wednesday,Afternoon,38.7,Yes,Medium
+Talwade,Nigdi,Friday,Morning,35.6,Yes,High
+Chinchwad,Nigdi,Sunday,Evening,36.1,No,Medium
+Akurdi,Pimpri,Saturday,Morning,34.9,No,Medium
+Wakad,Nigdi,Saturday,Evening,41.9,No,Low
+Nigdi,Chinchwad,Wednesday,Afternoon,37.9,No,Low
+Talwade,Pimpri,Monday,Evening,23.3,No,High
+Pimpri,Ravet,Friday,Evening,23.2,Yes,High
+Pimpri,Akurdi,Sunday,Evening,22.9,Yes,High
+Hinjewadi,Pimpri,Tuesday,Morning,41.0,No,Low
+Hinjewadi,Bhosari,Saturday,Morning,25.0,Yes,High
+Talwade,Nigdi,Thursday,Evening,22.2,No,High
+Chinchwad,Talwade,Thursday,Afternoon,29.5,No,Low
+Nigdi,Chinchwad,Thursday,Afternoon,24.9,No,Low
+Chinchwad,Hinjewadi,Tuesday,Morning,30.3,Yes,High
+Chinchwad,Akurdi,Saturday,Afternoon,38.6,No,Low
+Wakad,Hinjewadi,Wednesday,Morning,41.9,Yes,Medium
+Chinchwad,Akurdi,Monday,Afternoon,34.4,Yes,High
+Akurdi,Wakad,Saturday,Afternoon,39.5,No,Low
+Bhosari,Akurdi,Thursday,Afternoon,30.2,Yes,High
+Hinjewadi,Pimpri,Friday,Morning,34.8,Yes,High
+Ravet,Nigdi,Saturday,Afternoon,36.9,No,Medium
+Talwade,Chinchwad,Sunday,Morning,41.2,No,Low
+Hinjewadi,Akurdi,Thursday,Morning,31.5,Yes,High
+Dange Chowk,Wakad,Wednesday,Evening,33.5,No,Medium
+Pimpri,Dange Chowk,Wednesday,Evening,38.8,No,Low
+Wakad,Pimpri,Thursday,Afternoon,37.7,No,Low
+Dange Chowk,Bhosari,Monday,Evening,30.1,No,Medium
+Dange Chowk,Talwade,Tuesday,Evening,27.7,No,High
+Pimpri,Bhosari,Friday,Morning,36.6,No,High
+Nigdi,Chinchwad,Sunday,Afternoon,34.0,No,Medium
+Talwade,Wakad,Tuesday,Evening,25.8,No,High
+Talwade,Hinjewadi,Sunday,Afternoon,33.7,No,Medium
+Chinchwad,Hinjewadi,Tuesday,Evening,39.5,Yes,Medium
+Ravet,Wakad,Monday,Evening,30.1,Yes,High
+Ravet,Pimpri,Thursday,Morning,33.8,Yes,High
+Ravet,Pimpri,Thursday,Evening,40.8,Yes,Medium
+Pimpri,Ravet,Wednesday,Afternoon,30.2,No,Low
+Bhosari,Talwade,Tuesday,Afternoon,36.7,Yes,High
+Dange Chowk,Talwade,Sunday,Evening,36.4,Yes,High
+Hinjewadi,Nigdi,Tuesday,Evening,36.5,No,High
+Dange Chowk,Wakad,Saturday,Afternoon,27.8,No,Medium
+Pimpri,Nigdi,Tuesday,Evening,32.3,No,High
+Chinchwad,Nigdi,Wednesday,Afternoon,41.0,Yes,Medium
+Pimpri,Nigdi,Wednesday,Afternoon,32.7,Yes,High
+Chinchwad,Dange Chowk,Thursday,Morning,24.1,No,High
+Ravet,Pimpri,Sunday,Afternoon,22.1,No,Medium
+Hinjewadi,Pimpri,Monday,Morning,31.7,No,High
+Bhosari,Ravet,Tuesday,Morning,40.9,Yes,Medium
+Akurdi,Wakad,Friday,Afternoon,32.1,No,Low
+Talwade,Akurdi,Wednesday,Evening,33.4,No,High
+Pimpri,Wakad,Sunday,Afternoon,40.6,No,Low
+Chinchwad,Talwade,Saturday,Morning,38.7,Yes,Medium
+Bhosari,Wakad,Thursday,Evening,35.6,Yes,High
+Chinchwad,Wakad,Thursday,Afternoon,39.4,Yes,Medium
+Dange Chowk,Chinchwad,Saturday,Morning,22.4,No,Medium
+Chinchwad,Ravet,Saturday,Afternoon,41.3,Yes,Medium
+Dange Chowk,Akurdi,Saturday,Afternoon,31.5,No,Medium
+Chinchwad,Bhosari,Tuesday,Morning,23.4,No,High
+Nigdi,Pimpri,Saturday,Morning,22.2,Yes,High
+Nigdi,Akurdi,Monday,Evening,39.2,Yes,Medium
+Akurdi,Pimpri,Monday,Morning,32.2,No,High
+Nigdi,Pimpri,Friday,Afternoon,40.5,No,Low
+Pimpri,Dange Chowk,Wednesday,Afternoon,32.6,No,Low
+Talwade,Hinjewadi,Monday,Morning,22.9,Yes,High
+Bhosari,Pimpri,Tuesday,Morning,22.5,Yes,High
+Wakad,Ravet,Sunday,Evening,41.4,No,Low
+Wakad,Chinchwad,Monday,Afternoon,36.7,No,Low
+Akurdi,Talwade,Saturday,Afternoon,22.6,No,Medium
+Dange Chowk,Chinchwad,Monday,Morning,30.6,Yes,High
+Chinchwad,Akurdi,Monday,Afternoon,29.6,Yes,High
+Akurdi,Talwade,Wednesday,Morning,40.8,Yes,Medium
+Hinjewadi,Akurdi,Tuesday,Evening,38.7,Yes,Medium
+Dange Chowk,Akurdi,Saturday,Evening,31.9,Yes,High
+Nigdi,Ravet,Tuesday,Afternoon,28.6,Yes,High
+Bhosari,Nigdi,Tuesday,Morning,38.0,No,High
+Ravet,Hinjewadi,Friday,Evening,41.7,No,Low
+Chinchwad,Talwade,Saturday,Morning,32.7,No,Medium
+Pimpri,Wakad,Monday,Evening,39.9,No,Low
+Ravet,Talwade,Monday,Evening,39.2,No,Low
+Pimpri,Bhosari,Saturday,Evening,33.5,Yes,High
+Dange Chowk,Nigdi,Saturday,Afternoon,33.5,Yes,High
+Nigdi,Talwade,Sunday,Morning,40.0,No,Low
+Bhosari,Nigdi,Thursday,Evening,37.3,No,High
+Talwade,Ravet,Friday,Afternoon,30.0,No,Low
+Pimpri,Bhosari,Saturday,Morning,37.4,Yes,High
+Pimpri,Dange Chowk,Friday,Afternoon,40.5,Yes,Medium
+Dange Chowk,Ravet,Saturday,Afternoon,41.2,Yes,Medium
+Ravet,Chinchwad,Monday,Morning,40.1,No,Low
+Dange Chowk,Ravet,Thursday,Afternoon,39.6,No,Low
+Pimpri,Dange Chowk,Friday,Morning,35.2,No,High
+Wakad,Akurdi,Wednesday,Evening,31.8,No,High
+Bhosari,Dange Chowk,Sunday,Afternoon,33.7,Yes,High
+Akurdi,Chinchwad,Monday,Morning,40.8,No,Low
+Chinchwad,Talwade,Tuesday,Afternoon,38.3,Yes,Medium
+Wakad,Pimpri,Sunday,Morning,25.1,Yes,High
+Wakad,Ravet,Tuesday,Evening,37.8,No,High
+Akurdi,Dange Chowk,Tuesday,Afternoon,40.6,Yes,Medium
+Talwade,Wakad,Friday,Morning,35.3,No,High
+Akurdi,Dange Chowk,Saturday,Morning,22.6,No,Medium
+Wakad,Dange Chowk,Sunday,Evening,26.8,No,Medium
+Dange Chowk,Nigdi,Thursday,Afternoon,26.1,No,Low
+Bhosari,Hinjewadi,Sunday,Evening,23.8,Yes,High
+Akurdi,Chinchwad,Wednesday,Afternoon,40.7,Yes,Medium
+Hinjewadi,Pimpri,Tuesday,Morning,29.5,Yes,High
+Hinjewadi,Talwade,Thursday,Evening,35.2,Yes,High
+Dange Chowk,Ravet,Saturday,Morning,29.3,Yes,High
+Pimpri,Akurdi,Monday,Evening,24.0,Yes,High
+Nigdi,Wakad,Tuesday,Morning,36.2,Yes,High
+Pimpri,Dange Chowk,Sunday,Afternoon,22.8,No,Medium
+Dange Chowk,Hinjewadi,Tuesday,Morning,34.0,Yes,High
+Dange Chowk,Chinchwad,Wednesday,Evening,25.6,Yes,High
+Nigdi,Bhosari,Saturday,Evening,39.0,No,Low
+Ravet,Bhosari,Wednesday,Evening,28.9,Yes,High
+Ravet,Nigdi,Wednesday,Evening,33.4,Yes,High
+Nigdi,Akurdi,Saturday,Afternoon,34.8,No,Medium
+Wakad,Bhosari,Saturday,Morning,32.8,No,Medium
+Bhosari,Ravet,Thursday,Morning,37.8,Yes,High
+Chinchwad,Nigdi,Sunday,Morning,34.0,Yes,High
+Ravet,Hinjewadi,Monday,Afternoon,30.3,Yes,High
+Bhosari,Wakad,Friday,Evening,35.8,Yes,High
+Talwade,Hinjewadi,Wednesday,Afternoon,37.7,Yes,High
+Hinjewadi,Wakad,Sunday,Afternoon,41.5,Yes,Medium
+Pimpri,Dange Chowk,Saturday,Evening,29.1,Yes,High
+Nigdi,Chinchwad,Monday,Afternoon,34.3,No,Low
+Nigdi,Dange Chowk,Monday,Afternoon,29.5,Yes,High
+Bhosari,Wakad,Monday,Afternoon,34.8,No,Low
+Pimpri,Wakad,Saturday,Afternoon,41.8,Yes,Medium
+Dange Chowk,Chinchwad,Tuesday,Evening,35.0,No,High
+Bhosari,Dange Chowk,Friday,Evening,34.2,No,Medium
+Ravet,Hinjewadi,Wednesday,Evening,26.3,No,High
+Pimpri,Dange Chowk,Friday,Evening,22.5,Yes,High
+Chinchwad,Wakad,Tuesday,Afternoon,33.7,Yes,High
+Bhosari,Wakad,Wednesday,Evening,35.4,No,High
+Bhosari,Pimpri,Thursday,Afternoon,37.6,Yes,High
+Dange Chowk,Bhosari,Thursday,Morning,23.7,Yes,High
+Pimpri,Nigdi,Monday,Afternoon,29.8,Yes,High
+Wakad,Ravet,Wednesday,Morning,30.0,Yes,High
+Pimpri,Dange Chowk,Thursday,Afternoon,29.7,Yes,High
+Talwade,Chinchwad,Tuesday,Evening,37.3,No,High
+Nigdi,Ravet,Wednesday,Afternoon,33.0,Yes,High
+Pimpri,Bhosari,Monday,Evening,24.7,No,High
+Bhosari,Wakad,Thursday,Evening,41.7,No,Low
+Dange Chowk,Wakad,Friday,Evening,27.8,No,Medium
+Talwade,Wakad,Wednesday,Afternoon,35.4,Yes,High
+Chinchwad,Ravet,Thursday,Morning,37.3,No,High
+Akurdi,Talwade,Wednesday,Evening,39.4,Yes,Medium
+Akurdi,Chinchwad,Friday,Morning,35.4,Yes,High
+Nigdi,Chinchwad,Wednesday,Morning,38.8,No,Low
+Nigdi,Akurdi,Monday,Evening,22.9,No,Medium
+Bhosari,Akurdi,Sunday,Morning,41.8,No,Low
+Talwade,Dange Chowk,Monday,Morning,40.6,No,Low
+Bhosari,Nigdi,Thursday,Morning,41.1,No,Low
+Talwade,Bhosari,Wednesday,Evening,27.9,Yes,High
+Talwade,Nigdi,Thursday,Afternoon,40.1,Yes,Medium
+Bhosari,Chinchwad,Sunday,Morning,32.0,No,Medium
+Ravet,Nigdi,Friday,Afternoon,34.0,No,Low
+Pimpri,Talwade,Tuesday,Afternoon,27.8,No,Low
+Chinchwad,Wakad,Monday,Morning,26.4,Yes,High
+Akurdi,Wakad,Saturday,Afternoon,34.5,No,Medium
+Bhosari,Wakad,Sunday,Afternoon,22.2,Yes,High
+Akurdi,Pimpri,Tuesday,Morning,22.2,No,High
+Akurdi,Nigdi,Thursday,Evening,39.5,No,Low
+Talwade,Nigdi,Saturday,Evening,41.5,No,Low
+Akurdi,Hinjewadi,Saturday,Evening,25.1,No,Medium
+Bhosari,Nigdi,Tuesday,Evening,25.7,No,High
+Wakad,Bhosari,Wednesday,Evening,27.4,No,High
+Nigdi,Dange Chowk,Saturday,Morning,34.7,No,Medium
+Pimpri,Dange Chowk,Monday,Afternoon,30.4,Yes,High
+Talwade,Hinjewadi,Tuesday,Morning,22.7,Yes,High
+Pimpri,Akurdi,Saturday,Afternoon,34.4,Yes,High
+Bhosari,Pimpri,Monday,Afternoon,26.0,No,Low
+Pimpri,Chinchwad,Wednesday,Evening,33.7,No,Medium
+Dange Chowk,Ravet,Tuesday,Morning,25.7,Yes,High
+Pimpri,Dange Chowk,Thursday,Morning,23.7,Yes,High
+Akurdi,Nigdi,Tuesday,Evening,39.5,Yes,Medium
+Bhosari,Chinchwad,Monday,Evening,34.9,Yes,High
+Nigdi,Hinjewadi,Sunday,Evening,40.9,No,Low
+Akurdi,Nigdi,Saturday,Morning,27.1,No,Medium
+Bhosari,Dange Chowk,Tuesday,Evening,35.3,Yes,High
+Hinjewadi,Chinchwad,Friday,Morning,33.6,No,High
+Dange Chowk,Chinchwad,Tuesday,Morning,39.7,Yes,Medium
+Hinjewadi,Chinchwad,Thursday,Afternoon,28.1,Yes,High
+Bhosari,Pimpri,Friday,Afternoon,34.0,Yes,High
+Nigdi,Hinjewadi,Tuesday,Morning,40.4,No,Low
+Bhosari,Nigdi,Tuesday,Afternoon,32.8,No,Low
+Chinchwad,Wakad,Sunday,Afternoon,22.3,Yes,High
+Chinchwad,Pimpri,Friday,Morning,36.5,No,Medium
+Akurdi,Chinchwad,Friday,Afternoon,24.4,No,Low
+Wakad,Nigdi,Wednesday,Morning,33.3,No,High
+Nigdi,Talwade,Sunday,Afternoon,41.7,No,Low
+Ravet,Akurdi,Saturday,Morning,25.8,No,Medium
+Hinjewadi,Talwade,Thursday,Evening,40.3,No,Low
+Pimpri,Bhosari,Tuesday,Afternoon,28.9,Yes,High
+Bhosari,Pimpri,Monday,Evening,32.9,No,High
+Akurdi,Ravet,Saturday,Evening,25.0,Yes,High
+Dange Chowk,Hinjewadi,Wednesday,Morning,25.8,No,High
+Chinchwad,Nigdi,Monday,Morning,23.2,Yes,High
+Dange Chowk,Talwade,Saturday,Afternoon,39.2,No,Low
+Talwade,Chinchwad,Wednesday,Afternoon,38.4,Yes,Medium
+Hinjewadi,Akurdi,Saturday,Evening,39.6,No,Low
+Ravet,Nigdi,Saturday,Evening,29.4,Yes,High
+Akurdi,Dange Chowk,Friday,Evening,37.1,Yes,High
+Ravet,Chinchwad,Friday,Morning,32.2,Yes,High
+Wakad,Talwade,Monday,Evening,33.3,Yes,High
+Nigdi,Talwade,Thursday,Afternoon,38.7,Yes,Medium
+Wakad,Bhosari,Wednesday,Afternoon,39.9,No,Low
+Nigdi,Ravet,Friday,Evening,35.3,Yes,High
+Bhosari,Hinjewadi,Monday,Evening,31.7,Yes,High
+Chinchwad,Nigdi,Tuesday,Afternoon,30.2,Yes,High
+Akurdi,Talwade,Friday,Evening,40.6,No,Low
+Talwade,Nigdi,Monday,Afternoon,32.1,Yes,High
+Talwade,Wakad,Thursday,Afternoon,38.6,No,Low
+Dange Chowk,Nigdi,Saturday,Evening,30.9,Yes,High
+Nigdi,Dange Chowk,Thursday,Evening,31.9,Yes,High
+Chinchwad,Ravet,Saturday,Evening,39.3,No,Low
+Dange Chowk,Talwade,Monday,Evening,40.2,Yes,Medium
+Dange Chowk,Talwade,Thursday,Evening,31.2,Yes,High
+Wakad,Chinchwad,Thursday,Afternoon,30.6,No,Low
+Talwade,Hinjewadi,Tuesday,Morning,26.5,No,Medium
+Akurdi,Nigdi,Wednesday,Morning,29.3,Yes,High
+Wakad,Pimpri,Saturday,Morning,29.3,Yes,High
+Talwade,Pimpri,Friday,Afternoon,30.6,No,Low
+Hinjewadi,Bhosari,Saturday,Afternoon,26.3,Yes,High
+Pimpri,Bhosari,Thursday,Afternoon,35.5,Yes,High
+Wakad,Nigdi,Friday,Afternoon,24.0,Yes,High
+Talwade,Wakad,Monday,Evening,34.0,Yes,High
+Bhosari,Nigdi,Friday,Morning,30.6,Yes,High
+Ravet,Hinjewadi,Saturday,Morning,32.4,No,Medium
+Wakad,Nigdi,Tuesday,Morning,33.3,Yes,High
+Wakad,Hinjewadi,Tuesday,Morning,30.4,No,Medium
+Talwade,Wakad,Wednesday,Afternoon,34.2,No,Low
+Wakad,Dange Chowk,Saturday,Afternoon,37.8,No,Medium
+Wakad,Akurdi,Saturday,Afternoon,30.2,No,Medium
+Nigdi,Dange Chowk,Sunday,Evening,36.3,Yes,High
+Hinjewadi,Ravet,Tuesday,Evening,22.3,No,High
+Bhosari,Nigdi,Friday,Afternoon,40.9,Yes,Medium
+Akurdi,Talwade,Tuesday,Morning,40.5,Yes,Medium
+Ravet,Pimpri,Tuesday,Morning,36.4,No,Medium
+Chinchwad,Talwade,Thursday,Morning,36.5,No,High
+Nigdi,Chinchwad,Monday,Afternoon,39.6,No,Low
+Hinjewadi,Bhosari,Saturday,Evening,34.7,Yes,High
+Ravet,Bhosari,Wednesday,Afternoon,22.3,No,Low
+Chinchwad,Talwade,Tuesday,Morning,30.8,No,High
+Nigdi,Ravet,Tuesday,Morning,31.5,Yes,High
+Bhosari,Dange Chowk,Tuesday,Morning,31.1,Yes,High
+Nigdi,Chinchwad,Monday,Afternoon,29.8,Yes,High
+Pimpri,Dange Chowk,Wednesday,Evening,37.9,No,High
+Akurdi,Pimpri,Tuesday,Evening,35.3,No,High
+Talwade,Ravet,Sunday,Morning,36.0,Yes,High
+Chinchwad,Ravet,Friday,Evening,29.0,Yes,High
+Ravet,Wakad,Thursday,Afternoon,31.1,No,Low
+Nigdi,Talwade,Friday,Afternoon,25.7,Yes,High
+Talwade,Akurdi,Friday,Evening,27.6,No,High
+Dange Chowk,Chinchwad,Monday,Morning,27.1,Yes,High
+Bhosari,Pimpri,Sunday,Morning,30.6,No,Medium
+Wakad,Ravet,Thursday,Morning,24.7,No,High
+Akurdi,Dange Chowk,Friday,Morning,23.3,Yes,High
+Ravet,Wakad,Wednesday,Afternoon,37.5,Yes,High
+Nigdi,Pimpri,Wednesday,Afternoon,23.0,No,Low
+Hinjewadi,Akurdi,Thursday,Morning,41.5,Yes,Medium
+Bhosari,Talwade,Friday,Morning,27.6,Yes,High
+Ravet,Akurdi,Saturday,Morning,37.7,Yes,High
+Chinchwad,Nigdi,Tuesday,Morning,36.1,Yes,High
+Bhosari,Talwade,Saturday,Afternoon,28.4,No,Medium
+Talwade,Pimpri,Sunday,Evening,25.7,Yes,High
+Dange Chowk,Bhosari,Thursday,Morning,37.6,No,Medium
+Ravet,Hinjewadi,Thursday,Evening,27.7,Yes,High
+Wakad,Nigdi,Thursday,Evening,33.7,Yes,High
+Chinchwad,Ravet,Thursday,Morning,34.8,Yes,High
+Wakad,Nigdi,Tuesday,Afternoon,22.4,No,Low
+Pimpri,Dange Chowk,Thursday,Morning,24.2,Yes,High
+Chinchwad,Nigdi,Tuesday,Afternoon,25.4,No,Low
+Ravet,Hinjewadi,Friday,Evening,26.1,No,High
+Wakad,Nigdi,Tuesday,Morning,22.7,No,High
+Wakad,Nigdi,Sunday,Morning,24.6,Yes,High
+Wakad,Nigdi,Tuesday,Evening,41.3,No,Low
+Bhosari,Dange Chowk,Monday,Afternoon,34.6,Yes,High
+Hinjewadi,Nigdi,Sunday,Afternoon,39.6,No,Low
+Pimpri,Chinchwad,Thursday,Morning,39.2,Yes,Medium
+Nigdi,Hinjewadi,Monday,Morning,41.8,No,Low
+Akurdi,Talwade,Sunday,Afternoon,22.5,Yes,High
+Akurdi,Dange Chowk,Friday,Afternoon,34.2,No,Low
+Hinjewadi,Wakad,Saturday,Morning,30.1,No,Medium
+Bhosari,Talwade,Wednesday,Afternoon,40.0,Yes,Medium
+Wakad,Hinjewadi,Tuesday,Morning,27.0,Yes,High
+Talwade,Akurdi,Saturday,Morning,37.5,Yes,High
+Talwade,Chinchwad,Thursday,Evening,27.4,Yes,High
+Nigdi,Akurdi,Wednesday,Evening,38.1,No,Low
+Dange Chowk,Wakad,Friday,Evening,29.3,No,Medium
+Nigdi,Pimpri,Saturday,Afternoon,29.5,Yes,High
+Nigdi,Ravet,Saturday,Morning,31.9,No,Medium
+Hinjewadi,Ravet,Saturday,Afternoon,23.3,Yes,High
+Dange Chowk,Nigdi,Thursday,Afternoon,27.2,Yes,High
+Hinjewadi,Ravet,Friday,Evening,30.6,Yes,High
+Nigdi,Hinjewadi,Friday,Afternoon,33.2,Yes,High
+Dange Chowk,Hinjewadi,Tuesday,Evening,36.9,No,High
+Ravet,Pimpri,Friday,Evening,34.5,Yes,High
+Dange Chowk,Chinchwad,Tuesday,Afternoon,26.6,Yes,High
+Talwade,Nigdi,Sunday,Evening,26.0,Yes,High
+Nigdi,Talwade,Wednesday,Evening,35.3,Yes,High
+Talwade,Bhosari,Sunday,Afternoon,32.8,No,Medium
+Bhosari,Talwade,Friday,Afternoon,28.2,Yes,High
+Hinjewadi,Wakad,Saturday,Evening,38.0,No,Medium
+Akurdi,Pimpri,Friday,Afternoon,39.6,Yes,Medium
+Bhosari,Dange Chowk,Saturday,Evening,26.2,No,Medium
+Pimpri,Akurdi,Sunday,Afternoon,37.6,Yes,High
+Chinchwad,Talwade,Wednesday,Afternoon,32.9,Yes,High
+Chinchwad,Hinjewadi,Thursday,Afternoon,29.4,Yes,High
+Wakad,Pimpri,Monday,Evening,27.0,No,High
+Nigdi,Pimpri,Tuesday,Morning,33.4,Yes,High
+Nigdi,Hinjewadi,Monday,Afternoon,28.3,Yes,High
+Pimpri,Dange Chowk,Friday,Afternoon,24.4,Yes,High
+Chinchwad,Ravet,Sunday,Evening,23.7,No,Medium
+Nigdi,Ravet,Tuesday,Morning,35.2,Yes,High
+Nigdi,Wakad,Tuesday,Morning,34.0,Yes,High
+Akurdi,Chinchwad,Sunday,Evening,27.3,Yes,High
+Ravet,Bhosari,Tuesday,Morning,37.4,Yes,High
+Dange Chowk,Wakad,Friday,Morning,29.8,No,Medium
+Akurdi,Wakad,Sunday,Morning,39.4,No,Low
+Bhosari,Talwade,Thursday,Evening,37.0,No,High
+Talwade,Dange Chowk,Friday,Morning,31.9,Yes,High
+Hinjewadi,Talwade,Thursday,Morning,37.0,Yes,High
+Talwade,Hinjewadi,Wednesday,Evening,27.8,Yes,High
+Wakad,Pimpri,Thursday,Afternoon,30.7,Yes,High
+Dange Chowk,Ravet,Saturday,Afternoon,29.7,No,High
+Akurdi,Wakad,Monday,Morning,27.1,No,High
+Pimpri,Akurdi,Monday,Morning,23.0,No,High
+Talwade,Bhosari,Saturday,Afternoon,29.4,No,Medium
+Talwade,Pimpri,Sunday,Afternoon,35.7,No,High
+Ravet,Akurdi,Monday,Evening,34.6,No,High
+Talwade,Bhosari,Wednesday,Morning,29.6,Yes,High
+Akurdi,Bhosari,Sunday,Afternoon,25.0,No,Medium
+Chinchwad,Nigdi,Thursday,Morning,41.7,Yes,Medium
+Chinchwad,Hinjewadi,Wednesday,Evening,29.1,No,High
+Bhosari,Akurdi,Wednesday,Morning,28.8,No,High
+Chinchwad,Nigdi,Wednesday,Evening,28.3,No,Medium
+Ravet,Bhosari,Thursday,Morning,35.2,Yes,High
+Hinjewadi,Akurdi,Thursday,Afternoon,36.9,No,Low
+Nigdi,Hinjewadi,Monday,Evening,33.3,Yes,High
+Pimpri,Akurdi,Thursday,Evening,26.6,Yes,High
+Dange Chowk,Chinchwad,Sunday,Afternoon,25.8,Yes,High
+Chinchwad,Ravet,Tuesday,Evening,38.0,No,High
+Dange Chowk,Wakad,Tuesday,Afternoon,23.1,No,Low
+Nigdi,Akurdi,Tuesday,Afternoon,31.6,Yes,High
+Dange Chowk,Chinchwad,Friday,Morning,39.3,No,Low
+Pimpri,Wakad,Wednesday,Evening,30.5,No,High
+Talwade,Akurdi,Monday,Afternoon,35.7,Yes,High
+Bhosari,Ravet,Wednesday,Afternoon,28.6,No,Low
+Akurdi,Nigdi,Wednesday,Afternoon,35.1,No,Low
+Chinchwad,Pimpri,Saturday,Afternoon,28.6,Yes,High
+Bhosari,Chinchwad,Tuesday,Afternoon,37.9,Yes,High
+Dange Chowk,Nigdi,Saturday,Afternoon,40.5,No,Low
+Talwade,Dange Chowk,Wednesday,Morning,25.8,No,High
+Nigdi,Wakad,Thursday,Evening,39.4,No,Low
+Chinchwad,Hinjewadi,Saturday,Morning,30.6,No,Medium
+Dange Chowk,Wakad,Saturday,Afternoon,29.7,Yes,High
+Hinjewadi,Talwade,Tuesday,Evening,34.6,No,Medium
+Akurdi,Hinjewadi,Monday,Afternoon,39.7,Yes,Medium
+Akurdi,Bhosari,Wednesday,Evening,34.2,No,High
+Talwade,Dange Chowk,Sunday,Evening,38.3,No,Low
+Bhosari,Talwade,Tuesday,Afternoon,35.6,No,Low
+Ravet,Talwade,Wednesday,Morning,30.4,Yes,High
+Bhosari,Ravet,Tuesday,Morning,40.8,Yes,Medium
+Hinjewadi,Akurdi,Tuesday,Evening,23.5,Yes,High
+Bhosari,Akurdi,Monday,Afternoon,24.1,Yes,High
+Chinchwad,Hinjewadi,Tuesday,Afternoon,29.8,Yes,High
+Wakad,Bhosari,Friday,Afternoon,39.8,Yes,Medium
+Hinjewadi,Wakad,Wednesday,Morning,23.9,No,Medium
+Akurdi,Pimpri,Monday,Morning,22.5,No,High
+Talwade,Ravet,Friday,Morning,36.7,Yes,High
+Dange Chowk,Talwade,Saturday,Morning,25.5,No,Medium
+Hinjewadi,Dange Chowk,Wednesday,Afternoon,33.2,Yes,High
+Bhosari,Nigdi,Thursday,Morning,40.7,No,Low
+Ravet,Dange Chowk,Wednesday,Morning,41.8,No,Low
+Bhosari,Ravet,Wednesday,Afternoon,29.3,Yes,High
+Dange Chowk,Hinjewadi,Tuesday,Evening,32.1,No,High
+Akurdi,Bhosari,Tuesday,Morning,39.8,Yes,Medium
+Nigdi,Dange Chowk,Friday,Morning,24.3,No,High
+Nigdi,Hinjewadi,Sunday,Morning,40.0,No,Low
+Pimpri,Hinjewadi,Saturday,Afternoon,28.5,No,Medium
+Hinjewadi,Wakad,Saturday,Evening,23.0,No,Medium
+Wakad,Chinchwad,Thursday,Afternoon,26.4,No,Low
+Talwade,Wakad,Friday,Evening,39.3,Yes,Medium
+Hinjewadi,Talwade,Saturday,Afternoon,26.3,No,Medium
+Wakad,Talwade,Monday,Morning,34.5,No,High
+Akurdi,Wakad,Tuesday,Afternoon,24.3,No,Low
+Wakad,Ravet,Sunday,Evening,28.3,No,Medium
+Nigdi,Akurdi,Saturday,Afternoon,34.7,Yes,High
+Chinchwad,Akurdi,Saturday,Afternoon,36.5,No,Medium
+Nigdi,Akurdi,Friday,Afternoon,40.8,Yes,Medium
+Ravet,Wakad,Friday,Morning,29.5,No,High
+Wakad,Ravet,Monday,Evening,36.8,Yes,High
+Dange Chowk,Pimpri,Sunday,Afternoon,36.1,No,Medium
+Chinchwad,Akurdi,Saturday,Afternoon,40.2,Yes,Medium
+Nigdi,Wakad,Friday,Afternoon,29.2,Yes,High
+Ravet,Pimpri,Tuesday,Morning,26.1,No,Medium
+Nigdi,Wakad,Thursday,Evening,31.4,No,High
+Bhosari,Dange Chowk,Friday,Evening,28.4,Yes,High
+Nigdi,Chinchwad,Thursday,Morning,34.0,No,Medium
+Pimpri,Talwade,Friday,Morning,24.7,No,High
+Dange Chowk,Akurdi,Friday,Morning,30.1,No,High
+Dange Chowk,Akurdi,Wednesday,Afternoon,32.7,No,Low
+Talwade,Chinchwad,Monday,Morning,38.7,No,Low
+Dange Chowk,Hinjewadi,Sunday,Evening,38.4,No,Low
+Nigdi,Talwade,Saturday,Evening,31.9,Yes,High
+Bhosari,Akurdi,Friday,Afternoon,36.2,Yes,High
+Akurdi,Chinchwad,Thursday,Morning,26.2,Yes,High
+Wakad,Chinchwad,Wednesday,Evening,29.1,No,High
+Talwade,Pimpri,Tuesday,Morning,31.0,No,High
+Nigdi,Ravet,Wednesday,Afternoon,39.1,Yes,Medium
+Pimpri,Nigdi,Saturday,Afternoon,42.0,Yes,Medium
+Ravet,Dange Chowk,Tuesday,Afternoon,24.1,No,Low
+Ravet,Bhosari,Saturday,Afternoon,40.8,Yes,Medium
+Hinjewadi,Wakad,Wednesday,Afternoon,41.2,No,Low
+Dange Chowk,Ravet,Wednesday,Morning,32.5,Yes,High
